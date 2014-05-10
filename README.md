@@ -16,8 +16,8 @@ process should actually look, which include:
     data (we in fact have two, both [JsonML]: a markdown tree and an HTML tree)
   * Being easily extensible to add new dialects without having to
     rewrite the entire parsing mechanics
-  * Having a good test suite. The only test suites we could find tested
-    massive blocks of input, and passing depended on outputting the HTML
+  * Having a good test suite that takes small blocks of input,
+    and in which passing does not depend on on outputting the HTML
     with exactly the same whitespace as the original implementation
 
 [JsonML]: http://jsonml.org/ "JSON Markup Language"
